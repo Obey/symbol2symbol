@@ -1,0 +1,155 @@
+div {
+    /*  font-size: 15px !important; */
+      font-family: 'Roboto Condensed', sans-serif !important;
+    }
+
+.noUi-value {
+  margin-top: 10px !important;
+    font-size: 15px !important;  
+}
+
+
+    body {
+        width: 100% !important;
+        height: auto !important;
+      
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-top: 0px !important;
+      }
+      button, select, html, textarea, input {
+          font-family: 'Arial', sans-serif;
+         
+      }
+
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        /*font-family: 'Oswald', sans-serif !important;*/
+      font-family: 'Roboto Condensed', sans-serif!important;  /**/
+        margin-top: 0px !important;
+      }
+
+      
+.nav-tabs {
+     /* border-bottom: 0px solid #ddd;*/
+  }
+  
+  .nav-tabs>li.active>a,
+  .nav-tabs>li.active>a:focus,
+  .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    
+    
+    
+    vertical-align: middle !important;
+  }
+  
+  .grtop {
+    background-image: linear-gradient(to top, #e9ebee, white);
+  }
+  
+  .nav-item {
+    vertical-align: middle !important;
+  }
+  
+  .nav-btn {
+    background-color: white !important;
+    color: black;
+    padding: 8px 10px !important;
+    min-width: 170px !important;
+    min-height: 60px !important;
+  /*  font-size: 15px !important; */
+    text-transform: none;
+    border-radius: 5px;
+  }
+  
+  .nav-btn:hover {
+    color: grey !important;
+  }
+  
+  .nav-btn:active {}
+  
+
+  .grleft {
+    background-image: linear-gradient(to left, #e9ebee, white);
+  }
+
+  .grright {
+    background-image: linear-gradient(to right, #e9ebee, white);
+  }
+
+  .grtop {
+    background-image: linear-gradient(to top, #e9ebee, white);
+  }
+
+  .grbottom {
+    background-image: linear-gradient(to bottom, #e9ebee, white);
+  }
+
+  .gtrleft {
+    background-image: linear-gradient(to left, #e9ebee, transparent);
+  }
+
+  .gtrright {
+    background-image: linear-gradient(to right, #e9ebee, transparent);
+  }
+
+  .gtrtop {
+    background-image: linear-gradient(to top, #e9ebee, transparent);
+  }
+
+  .gtrbottom {
+    background-image: linear-gradient(to bottom, #e9ebee, transparent);
+  }
+
+  .trleft {
+    background-image: linear-gradient(to left, transparent, white);
+  }
+
+  .trright {
+    background-image: linear-gradient(to right, transparent, white);
+  }
+
+  .trtop {
+    background-image: linear-gradient(to top, transparent, white);
+  }
+
+  .trbottom {
+    background-image: linear-gradient(to bottom, transparent, white);
+  }
+
+  .grsc3 {
+    -webkit-filter: grayscale(80%);
+    -moz-filter: grayscale(80%);
+    -ms-filter: grayscale(80%);
+    filter: grayscale(80%);
+  }
+
+  .grsc3:hover {
+    -webkit-filter: none;
+    filter: alpha(Opacity=100);
+    opacity: 1.0;
+  }
+
+  .grsc {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: alpha(Opacity=98);
+    opacity: 0.98;
+  }
+
+  .grsc:hover {
+    -webkit-filter: none;
+    filter: alpha(Opacity=100);
+    opacity: 1.0;
+  }
+  .bg-ccc { background-color: #efe;}
+  .bg-tr {box-shadow: 0 1px 2px 0 rgba(0,0,0,.16) inset !important;  border: 1px dotted #eee; color: black; background: url('/images/tra2.png') !important;}
+  .bg-hftr {background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,255,255,1)) !important;}
+  
