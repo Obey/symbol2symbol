@@ -13,10 +13,10 @@ div {
         width: 100% !important;
         height: auto !important;
       
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Arial', sans-serif;
         margin-top: 0px !important;
       }
-      button, select, html, textarea, input {
+      button,  textarea, input {
           font-family: 'Arial', sans-serif;
          
       }
