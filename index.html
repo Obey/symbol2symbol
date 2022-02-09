@@ -225,7 +225,7 @@
             // if (q2)  {}
             $scope.curLigF.push({
               what: el.what[0].toLowerCase(),
-              with: el.with[1].toLowerCase(),
+              with: el.with[1],
               fix: true,
               arr: el.with
             });
@@ -256,10 +256,10 @@
           let charrow = $scope.AllchArr.find((el) => el.what.includes(cur.what.toLowerCase()));
 
           if (charrow) rand = RND(charrow.with.length);
-          if (charrow) randsymb = charrow.with[rand].toLowerCase();
+          if (charrow) randsymb = charrow.with[rand];
 
           if (cur.fix != true) cur.with = randsymb;
-          str = str.toLowerCase().replaceAll(cur?.what.toLowerCase(), cur?.with.toLowerCase());
+          str = str.replaceAll(cur?.what.toLowerCase(), cur?.with);
 
         });
 
