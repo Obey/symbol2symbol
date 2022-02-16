@@ -155,10 +155,7 @@ div {
   
 
 @media only screen and (max-width: 700px) {
-  
-  .nomob {display: none!important;	}
- 
-  
- 
-   
-  }
+    .nomob {display: none!important;	}
+   }
+
+::placeholder { opacity: 0.50!important; }
