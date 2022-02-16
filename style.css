@@ -153,3 +153,12 @@ div {
   .bg-tr {box-shadow: 0 1px 2px 0 rgba(0,0,0,.16) inset !important;  border: 1px dotted #eee; color: black; background: url('tra2.png') !important;}
   .bg-hftr {background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,255,255,1)) !important;}
   
+
+@media only screen and (max-width: 700px) {
+  
+  .nomob {display: none!important;	}
+ 
+  
+ 
+   
+  }
