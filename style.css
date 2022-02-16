@@ -154,7 +154,7 @@ div {
   .bg-hftr {background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,255,255,1)) !important;}
   
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     .nomob {display: none!important;	}
    }
 
