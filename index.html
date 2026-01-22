@@ -178,15 +178,15 @@
 
       $scope.ligArr = $scope.chArr = [];
 
-      let url = 'https://izabor.com/CHARS2SYMBOL/chars.json?new=' + RND(22);
+      let url = 'https://izabor.com/4SM/!fromRoot/CHARS2SYMBOL/chars.json?new=' + RND(22);
       $http.get(url).then(function(response) {
         $scope.chArr = response.data;
       });
-      url = 'https://izabor.com/CHARS2SYMBOL/ligatur.json?new=' + RND(22);
+      url = 'https://izabor.com/4SM/!fromRoot/CHARS2SYMBOL/ligatur.json?new=' + RND(22);
       $http.get(url).then(function(response) {
         $scope.ligArr = response.data;
       });
-      url = 'https://izabor.com/CHARS2SYMBOL/posts.json?new=' + RND(42);
+      url = 'https://izabor.com/4SM/!fromRoot/CHARS2SYMBOL/posts.json?new=' + RND(42);
       $http.get(url).then(function(response) {
         $scope.fbArr = response.data;
       });
